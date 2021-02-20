@@ -20,6 +20,9 @@ public class Movie {
         this.director = in.next();
 
     }
+    public void display(){
+        System.out.println(this.movieName);
+    }
 
 
 }
