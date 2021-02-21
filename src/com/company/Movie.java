@@ -36,7 +36,7 @@ public class Movie {
         this.movieTime = time;
     }
 
-    public Movie searchMovie(String movie){
+    public Movie getSearch(String movie){
         if(movie == this.movieName){
             return this;
         }

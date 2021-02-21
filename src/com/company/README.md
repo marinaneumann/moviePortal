@@ -14,6 +14,12 @@ Be able to find all available sources to watch a specific movie (ie. Amazon, own
 
 
 Use Cases: 
-To be able to search for all old movies to watch on your list (ie. movies before 1980). 
-Randomly select movie based on potential search criteria (ie. I want to watch a comedy movie tonight). 
+
+1)To be able to search for all old movies to watch on your list (ie. movies before 1980). 
+
+2)Randomly select movie based on potential search criteria (ie. I want to watch a comedy movie tonight or a movie with Christopher Plummer). 
+
+
+Phases:
+1) Build Movie class and Portal infrastructure. Establish basic add/display/search/remove functionality. 
 
