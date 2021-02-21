@@ -1,5 +1,5 @@
 package com.company;
-import java.util.Scanner;
+import java.util.*;
 public class Movie {
     private String movieName;
     private int releaseYear;
@@ -25,8 +25,8 @@ public class Movie {
                 this.categories[i] = new String(cat[i]);
             }
         }
-        //this.categories = cat;
-        //this.actors = act;
+//        this.categories = cat;
+//        this.actors = act;
         for(int i = 0; i < act.length; i++){
             if(act[i] != null){
                 this.actors[i] = new String(act[i]);
