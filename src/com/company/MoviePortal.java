@@ -6,10 +6,10 @@ public class MoviePortal {
         // write your code here
         List<Movie> Portal = new ArrayList<Movie>();
 //        System.out.println("What?");
-        Movie m = new Movie();
-        Portal.add(m);
-        Movie see = Portal.get(0);
-        see.display();
+        //Movie m = new Movie();
+        //Portal.add(m);
+        //Movie see = Portal.get(0);
+        //see.display();
         //menu();
     }
 

@@ -9,19 +9,56 @@ public class Movie {
     private float movieTime;
 
     public Movie(){
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter name of Movie:");
-        this.movieName = in.next();
+        this.movieName = null;
+        this.releaseYear = 0;
+        this.categories = null;
+        this.actors = null;
+        this.director = null;
+        this.movieTime = 0;
+    }
 
-        System.out.println("Enter the year movie released:");
-        this.releaseYear = in.nextInt();
+    public Movie(String mName, int rYear, String[] cat, String[] act, String dir, float time){
+        this.movieName = new String(mName);
+        this.releaseYear = rYear;
+        for(int i = 0; i < cat.length; i++){
+            if(cat[i] != null){
+                this.categories[i] = new String(cat[i]);
+            }
+        }
+        //this.categories = cat;
+        //this.actors = act;
+        for(int i = 0; i < act.length; i++){
+            if(act[i] != null){
+                this.actors[i] = new String(act[i]);
+            }
+        }
+        this.director = new String(dir);
+        this.movieTime = time;
+    }
 
-        System.out.println("Enter the movie director:");
-        this.director = in.next();
-
+    public Movie searchMovie(String movie){
+        if(movie == this.movieName){
+            return this;
+        }
+        return null;
     }
     public void display(){
-        System.out.println(this.movieName);
+        System.out.println("Movie Name: " + this.movieName);
+        System.out.println("Year: " + this.releaseYear);
+        System.out.println("Categories: ");
+        for(int i = 0; i < this.categories.length; i++){
+            if(this.categories[i] != null) {
+                System.out.println("#" + i + " " + this.categories[i]);
+            }
+        }
+        System.out.println("Actors:");
+        for(int i = 0; i < this.actors.length; i++){
+            if(this.actors[i] != null){
+                System.out.println("#" + i + " " + this.actors[i]);
+            }
+        }
+        System.out.println("Director: " + this.director);
+        System.out.println("Length:" + this.movieTime);
     }
 
 
