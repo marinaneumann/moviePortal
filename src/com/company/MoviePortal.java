@@ -5,17 +5,7 @@ public class MoviePortal {
     public static void main(String[] args) {
         // write your code here
         List<Movie> Portal = new ArrayList<Movie>();
-//        System.out.println("What?");
-        List<String>test = new ArrayList<String>();
-//        test.add("blah");
-//        test.add("whatever");
-//        test.add("ok");
-//
-//        Portal.add(m);
-        //Movie see = Portal.get(0);
-        //see.display();
-        //menu();
-//        displayMovies(Portal);
+        menu(Portal);
     }
 
     public static void menu(List Portal){
@@ -26,14 +16,14 @@ public class MoviePortal {
         System.out.println("Enter 'e' to exit this program");
         String choice = in.next();
         if(choice == "a"){
-            addMovie();
+            addMovie(Portal);
         }else if (choice == "d"){
             displayMovies(Portal);
         }else if (choice == "s"){
             //search();
         };
     }
-    public static void addMovie(){
+    public static void addMovie(List Portal ){
         String movieN;
         int rYear;
         String director;
@@ -77,6 +67,8 @@ public class MoviePortal {
         }
         System.out.println("Enter movie length:");
         time = in.nextFloat();
+        Movie m = new Movie(movieN, rYear, cat, actors,director,  time);
+        Portal.add(m);
 
     }
 
@@ -85,6 +77,7 @@ public class MoviePortal {
             System.out.println("#"+ i);
             Movie thing = (Movie) Portal.get(i);
             thing.display();
+            System.out.println("");
         }
     }
 
