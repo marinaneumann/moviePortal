@@ -4,7 +4,6 @@
     <list default="true" id="206a2501-db70-4df3-9ee9-a1550d422b59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613860871774</updated>
-      <workItem from="1613860877246" duration="6818000" />
+      <workItem from="1613860877246" duration="7649000" />
+      <workItem from="1614798924467" duration="2536000" />
     </task>
     <servers />
   </component>
@@ -118,10 +118,29 @@
     </state>
     <state width="1202" height="199" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1613861668604" />
     <state width="1396" height="327" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1613868135562" />
+    <state x="397" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1614798949438">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="397" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1614798949438" />
+    <state x="319" y="41" key="new project wizard" timestamp="1614799170135">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="319" y="41" key="new project wizard/0.23.1440.827@0.23.1440.827" timestamp="1614799170135" />
     <state x="341" y="172" width="670" height="677" key="search.everywhere.popup" timestamp="1613864886600">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="341" y="172" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1613862007520" />
     <state x="341" y="172" width="670" height="677" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1613864886600" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Movie.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

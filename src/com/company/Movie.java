@@ -7,6 +7,7 @@ public class Movie {
     private String[] actors;
     private String director;
     private float movieTime;
+    private String[] sources;
 
     public Movie(){
         this.movieName = null;
@@ -15,6 +16,7 @@ public class Movie {
         this.actors = null;
         this.director = null;
         this.movieTime = 0;
+        this.sources = null;
     }
 
     public Movie(String mName, int rYear, String[] cat, String[] act, String dir, float time){
