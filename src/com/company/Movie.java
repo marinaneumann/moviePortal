@@ -18,7 +18,13 @@ public class Movie {
         this.movieTime = 0;
         this.sources = null;
     }
-
+    public Movie(String mName){
+        this.movieName = mName;
+    }
+    public Movie(String mName,int y){
+        this.movieName = mName;
+        this.releaseYear = y;
+    }
     public Movie(String mName, int rYear, String[] cat, String[] act, String dir, float time){
         this.movieName = new String(mName);
         this.releaseYear = rYear;
@@ -38,8 +44,20 @@ public class Movie {
         this.movieTime = time;
     }
 
-    public Movie getSearch(String movie){
+    public Movie searchMovie(String movie){
         if(movie == this.movieName){
+            return this;
+        }
+        return null;
+    }
+    public Movie searchYear(int year){
+        if(this.releaseYear == year){
+            return this;
+        }
+        return null;
+    }
+    public Movie searchDirector(String dir){
+        if(this.director == dir){
             return this;
         }
         return null;

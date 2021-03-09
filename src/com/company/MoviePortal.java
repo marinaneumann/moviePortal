@@ -4,8 +4,8 @@ import java.util.*;
 public class MoviePortal {
     public static void main(String[] args) {
         // write your code here
-        List<Movie> Portal = new ArrayList<Movie>();
-        menu(Portal);
+//        List<Movie> Portal = new ArrayList<Movie>();
+//        menu(Portal);
     }
 
     public static void menu(List Portal){
