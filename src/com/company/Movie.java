@@ -9,6 +9,9 @@ public class Movie {
     private float movieTime;
     private String[] sources;
 
+
+    //To Do: Improve contstructors efficiency with constructor chaining??
+
     public Movie(){
         this.movieName = null;
         this.releaseYear = 0;
@@ -18,7 +21,7 @@ public class Movie {
         this.movieTime = 0;
         this.sources = null;
     }
-    public Movie(String mName){
+     public Movie(String mName){
         this.movieName = mName;
     }
     public Movie(String mName,int y){
@@ -45,7 +48,7 @@ public class Movie {
     }
 
     public Movie searchMovie(String movie){
-        if(movie == this.movieName){
+        if(movie.equals(this.movieName)){
             return this;
         }
         return null;
@@ -57,10 +60,24 @@ public class Movie {
         return null;
     }
     public Movie searchDirector(String dir){
-        if(this.director == dir){
+        if(this.director.equals(dir)){
             return this;
         }
         return null;
+    }
+    public int searchActor(String act){
+        for(int i = 0; i < actors.length; i++){
+            if(act.equals(actors[i])){
+                return 1;
+            }
+        }
+        return 0; // Have not found this movie to have actor searched in this movie.
+    }
+    public int shorterMovieCheck(float time){
+        if(this.movieTime < time){
+            return 1;
+        }
+        return 0;
     }
     public void display(){
         System.out.println("Movie Name: " + this.movieName);

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="206a2501-db70-4df3-9ee9-a1550d422b59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613860871774</updated>
       <workItem from="1613860877246" duration="7649000" />
-      <workItem from="1614798924467" duration="3177000" />
+      <workItem from="1614798924467" duration="4232000" />
+      <workItem from="1617314863887" duration="1338000" />
     </task>
     <servers />
   </component>
@@ -97,6 +100,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1617336249225">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1617336249225" />
     <state width="1396" height="327" key="GridCell.Tab.0.bottom" timestamp="1613868135562">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -130,16 +137,5 @@
     </state>
     <state x="341" y="172" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1613862007520" />
     <state x="341" y="172" width="670" height="677" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1613864886600" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Movie.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
